@@ -9,6 +9,9 @@ aux_links:
   "ℹ️ Repository":
     - "//github.com/ebears/frogbot-doc"
 
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo.png"
 
@@ -44,9 +47,6 @@ search:
   button: false
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: 'k'
-
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
