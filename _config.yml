@@ -6,3 +6,6 @@ url: https://frog.debears.org
 
 aux_links:
   Repository: https://github.com/ebears/frogbot-doc
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/logo.png"
