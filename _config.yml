@@ -4,8 +4,10 @@ theme: just-the-docs
 
 url: https://frog.debears.org
 
+# Aux links for the upper right navigation
 aux_links:
-  Repository: https://github.com/ebears/frogbot-doc
+  "ℹ️ Repository":
+    - "//github.com/ebears/frogbot-doc"
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo.png"
@@ -42,11 +44,6 @@ search:
   button: false
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: 'k'
-
-# Aux links for the upper right navigation
-aux_links:
-  "Red - Discord Bot":
-    - "//github.com/Cog-Creators/Red-DiscordBot"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
